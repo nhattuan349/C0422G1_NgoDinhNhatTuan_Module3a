@@ -5,9 +5,10 @@ import model.LopHoc;
 
 import java.sql.SQLException;
 import java.util.List;
+import java.util.Map;
 
 public interface IHocSinhService {
-    void insertHocSinh(HocSinh hocSinh) throws SQLException;
+    Map<String, String> insertHocSinh(HocSinh hocSinh) throws SQLException;
 
     HocSinh selectHocSinh(int id);
 
@@ -23,7 +24,7 @@ public interface IHocSinhService {
 
     List<HocSinh> findByName(String name);
 
-    List<HocSinh> findByNameAndAge(String name, int age);
+    List<HocSinh> findByNameAndAge(String name, String age);
 
     List<HocSinh> findByNameOrAge(String name, int age);
 }

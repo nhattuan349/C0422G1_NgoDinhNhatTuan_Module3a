@@ -23,7 +23,7 @@ public interface IHocSinhRepository {
 
     List<HocSinh> findByName(String name);
 
-    List<HocSinh> findByNameAndAge(String name, int age);
+    List<HocSinh> findByNameAndAge(String name, String age);
 
     List<HocSinh> findByNameOrAge(String name, int age);
 }

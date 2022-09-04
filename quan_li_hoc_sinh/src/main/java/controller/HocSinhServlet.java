@@ -11,6 +11,7 @@ import javax.servlet.annotation.*;
 import java.io.IOException;
 import java.sql.SQLException;
 import java.util.List;
+import java.util.Map;
 
 @WebServlet(name = "HocSinhServlet", value = "/hocsinh")
 public class HocSinhServlet extends HttpServlet {
@@ -48,8 +49,16 @@ public class HocSinhServlet extends HttpServlet {
         int statusDelete = 1;
 
         HocSinh newHocSinh = new HocSinh(tenHocSinh, tuoiHocSinh, diaChi, maLopHoc, statusDelete);
-        hocSinhService.insertHocSinh(newHocSinh);
-
+//        hocSinhService.insertHocSinh(newHocSinh);
+        Map<String,String> map  =hocSinhService.insertHocSinh(newHocSinh);
+        String mess ="Thêm mới thành công !";
+        if (!map.isEmpty()) {
+            mess = "Thêm mới không thành công";
+            request.setAttribute("error", map);
+        }
+        request.setAttribute("mess", mess);
+        List<LopHoc> listLopHoc = hocSinhService.selectLopHoc();
+        request.setAttribute("listLopHoc", listLopHoc);
         RequestDispatcher dispatcher = request.getRequestDispatcher("views/hocsinh/create.jsp");
         dispatcher.forward(request, response);
     }
@@ -126,6 +135,7 @@ public class HocSinhServlet extends HttpServlet {
         int idHocSinh = Integer.parseInt(request.getParameter("id_hoc_sinh"));
         HocSinh existingHocSinh = hocSinhService.selectHocSinh(idHocSinh);
         RequestDispatcher dispatcher = request.getRequestDispatcher("views/hocsinh/edit.jsp");
+
         request.setAttribute("hocSinh", existingHocSinh);
         dispatcher.forward(request, response);
     }
@@ -183,7 +193,9 @@ public class HocSinhServlet extends HttpServlet {
     private void findByNameAndAge(HttpServletRequest request, HttpServletResponse response)
             throws SQLException, IOException, ServletException {
         String tenHocSinh = request.getParameter("tenHocSinh");
-        int tuoiHocSinh = Integer.parseInt(request.getParameter("tuoiHocSinh"));
+
+        String tuoiHocSinh =request.getParameter("tuoiHocSinh");
+
 
         List<HocSinh> hocSinhs = hocSinhService.findByNameAndAge(tenHocSinh,tuoiHocSinh);
         request.setAttribute("listHocSinh", hocSinhs);

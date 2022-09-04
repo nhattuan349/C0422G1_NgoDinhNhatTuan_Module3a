@@ -11,8 +11,11 @@
 <html>
 <head>
     <title>Customer Manager Application</title>
+
+
     <link rel="stylesheet" href="../../bootstrap520/css/bootstrap.min.css">
     <link rel="stylesheet" href="../../datatables/css/dataTables.bootstrap5.min.css">
+    <link rel="stylesheet" href="../../bootstrap-5.0.2-dist/css/bootstrap.min.css">
 
 </head>
 <body>
@@ -198,6 +201,7 @@
 <script src="../../jquery/jquery-3.5.1.min.js"></script>
 <script src="../../datatables/js/jquery.dataTables.min.js"></script>
 <script src="../../datatables/js/dataTables.bootstrap5.min.js"></script>
+<script src="../../bootstrap-5.0.2-dist/js/bootstrap.min.js"></script>
 
 
 <form action="/hocsinh" id="formDelete">

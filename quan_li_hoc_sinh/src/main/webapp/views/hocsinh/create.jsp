@@ -88,9 +88,13 @@
             <h2>
                 <a href="hocsinh?action=hocsinh">List All Học sinh</a>
             </h2>
+            <c:if test="${mess!=null}">
+                <p style="color: red">${mess}</p>
+            </c:if>
         </center>
         <div align="center">
-            <form method="post">
+            <form action="/hocsinh?action=create" method="post">
+
                 <table border="1" cellpadding="5">
                     <caption>
                         <h2>Add New Học sinh</h2>
@@ -109,6 +113,11 @@
                             <input type="text" name="tuoi_hoc_sinh" size="45"
                                    value="<c:out value='${hocSinh.tuoiHocSinh}' />"
                             />
+                            <div>
+                            <c:if test="${error!=null}">
+                                <span style="color: red">${error.get("tuoiHocSinh")}</span>
+                            </c:if>
+                            </div>
                         </td>
                     </tr>
                     <tr>

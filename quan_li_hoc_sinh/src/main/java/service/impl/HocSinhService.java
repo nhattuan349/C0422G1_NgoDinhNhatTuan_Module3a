@@ -1,5 +1,6 @@
 package service.impl;
 
+import common.Validation;
 import model.HocSinh;
 import model.LopHoc;
 import repository.IHocSinhRepository;
@@ -7,15 +8,31 @@ import repository.impl.HocSinhRepository;
 import service.IHocSinhService;
 
 import java.sql.SQLException;
+import java.util.HashMap;
 import java.util.List;
+import java.util.Map;
 
 public class HocSinhService implements IHocSinhService {
 
     IHocSinhRepository hocSinhRepository = new HocSinhRepository();
 
     @Override
-    public void insertHocSinh(HocSinh hocSinh) throws SQLException {
-        hocSinhRepository.insertHocSinh(hocSinh);
+    public Map<String, String> insertHocSinh(HocSinh hocSinh) throws SQLException {
+        Map<String, String> map = new HashMap<>();
+        if (hocSinh.getTuoiHocSinh()<18){
+            map.put("tuoiHocSinh","Tuổi phải lớn hơn 18");
+        }else if (hocSinh.getTuoiHocSinh()>80){
+            map.put("tuoiHocSinh","Tuổi phải nhỏ hơn 80");
+        }
+        if ("".equals(hocSinh.getTuoiHocSinh())){
+            map.put("tuoiHocSinh","Tuổi không được để trống ");
+        }else if(!Validation.checkAge(String.valueOf(hocSinh.getTuoiHocSinh()))){
+            map.put("tuoiHocSinh","Tuổi không đúng định dạng");
+        }
+        if (map.isEmpty()){
+            hocSinhRepository.insertHocSinh(hocSinh);
+        }
+        return map;
     }
 
     @Override
@@ -54,8 +71,12 @@ public class HocSinhService implements IHocSinhService {
     }
 
     @Override
-    public List<HocSinh> findByNameAndAge(String name, int age) {
-        return hocSinhRepository.findByNameAndAge(name, age);
+    public List<HocSinh> findByNameAndAge(String name, String age) {
+        if (age.equals("")){
+            return  hocSinhRepository.findByName(name);
+        }else {
+            return hocSinhRepository.findByNameAndAge(name,age);
+        }
     }
 
     @Override

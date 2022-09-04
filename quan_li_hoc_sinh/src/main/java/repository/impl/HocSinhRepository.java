@@ -222,13 +222,13 @@ public class HocSinhRepository implements IHocSinhRepository {
     }
 
     @Override
-    public List<HocSinh> findByNameAndAge(String name, int age) {
+    public List<HocSinh> findByNameAndAge(String name, String age) {
         List<HocSinh> hocSinhs = new ArrayList<>();
         try {
             Connection connection = getConnection();
             PreparedStatement preparedStatement = connection.prepareStatement(SEARCH_HOC_SINH_BY_NAME_AND_AGE);
             preparedStatement.setString(1, "%" + name + "%");
-            preparedStatement.setInt(2, age );
+            preparedStatement.setString(2, "%" + age + "%");
             ResultSet rs = preparedStatement.executeQuery();
             while (rs.next()) {
                 int idHocSinh = rs.getInt("id_hoc_sinh");
