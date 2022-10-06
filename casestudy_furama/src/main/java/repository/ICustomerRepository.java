@@ -17,7 +17,7 @@ public interface ICustomerRepository {
 
     boolean updateCustomer(Customer customer) throws SQLException;
 
-    List<CustomerType> selectCustomer();
+    List<CustomerType> selectCustomerType();
 
     List<Customer> findByStatusDelete(String statusDelete);
 }

@@ -13,6 +13,7 @@
     <title>Customer Manager Application</title>
     <link rel="stylesheet" href="../../bootstrap520/css/bootstrap.min.css">
     <link rel="stylesheet" href="../../datatables/css/dataTables.bootstrap5.min.css">
+    <link rel="stylesheet" href="../../bootstrap-5.0.2-dist/css/bootstrap.min.css">
 
 </head>
 <body>
@@ -57,7 +58,7 @@
                                 <a class="nav-link dropdown-toggle float-end" href="#" role="button"
                                    data-bs-toggle="dropdown" aria-expanded="false">
                                     <span class="float-end"><a class="text-decoration-none"
-                                                               href="/customer">Hoc sinh</a></span>
+                                                               href="/customer">Customer</a></span>
                                 </a>
                                 <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
                                     <li><a class="dropdown-item" href="#">Action</a></li>
@@ -111,10 +112,22 @@
                 <c:forEach var="customer" items="${listCustomer}">
                     <tr>
                         <td><c:out value="${customer.maKhachHang}"/></td>
-                        <td><c:out value="${customer.maLoaiKhachHang}"/></td>
+                        <td>
+                            <c:forEach var="customerType" items="${listCustomerType}">
+                                <c:if test="${customer.maLoaiKhachHang == customerType.maLoaiKhach}"> ${customerType.tenLoaiKhach}</c:if>
+                            </c:forEach>
+                        </td>
+<%--                        <td><c:out value="${customer.maLoaiKhachHang}"/></td>--%>
                         <td><c:out value="${customer.hoTen}"/></td>
                         <td><c:out value="${customer.ngaySinh}"/></td>
-                        <td><c:out value="${customer.gioiTinh}"/></td>
+                        <td>
+                            <c:if test = "${customer.gioiTinh==1}">
+                                <span value ="1" >Nam</span>
+                            </c:if>
+                            <c:if test = "${customer.gioiTinh==0}">
+                                <span value ="0" >Nữ</span>
+                            </c:if>
+                        </td>
                         <td><c:out value="${customer.soCMND}"/></td>
                         <td><c:out value="${customer.soDienThoai}"/></td>
                         <td><c:out value="${customer.email}"/></td>
@@ -122,7 +135,7 @@
 
 
                         <td>
-                            <a href="/customer?action=edit&ma_khach_hang=${customer.maKhachHang}">
+                            <a href="/customer?action=edit&maKhachHang=${customer.maKhachHang}">
                                 <button class="btn bg-warning text-white">
                                     Edit
                                 </button>
@@ -178,11 +191,12 @@
 <script src="../../jquery/jquery-3.5.1.min.js"></script>
 <script src="../../datatables/js/jquery.dataTables.min.js"></script>
 <script src="../../datatables/js/dataTables.bootstrap5.min.js"></script>
+<script src="../../bootstrap-5.0.2-dist/js/bootstrap.min.js"></script>
 
 
 <form action="/customer" id="formDelete">
     <input type="hidden" name="action" value="delete">
-    <input type="hidden" id="ma_khach_hang" name="ma_khach_hang">
+    <input type="hidden" id="maKhachHang" name="maKhachHang">
 </form>
 
 <script>
@@ -197,7 +211,7 @@
     })
 
     function setIdToFormDelete(maKhachHang) {
-        document.getElementById("ma_khach_hang").value = maKhachHang;
+        document.getElementById("maKhachHang").value = maKhachHang;
     }
 
     function submitFormDelete() {

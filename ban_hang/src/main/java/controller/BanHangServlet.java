@@ -16,7 +16,6 @@ import java.util.List;
 public class BanHangServlet extends HttpServlet {
     private static final long serialVersionUID = 1L;
 
-
     private IBanHangService banHangService = new BanHangService();
 
     @Override
@@ -120,13 +119,13 @@ public class BanHangServlet extends HttpServlet {
     private void showEditFormBanHang(HttpServletRequest request, HttpServletResponse response)
             throws SQLException, IOException, ServletException {
         int maKhachHang = Integer.parseInt(request.getParameter("maKhachHang"));
-        BanHang existingBanHang = banHangService.selectBanHang(maKhachHang);
 
         List<KhuyenMai> listKhuyenMai = banHangService.selectKhuyenMai();
         request.setAttribute("listKhuyenMai", listKhuyenMai);
 
+        BanHang existingBanHang = banHangService.selectBanHang(maKhachHang);
         RequestDispatcher dispatcher = request.getRequestDispatcher("views/banhang/edit.jsp");
-        request.setAttribute("banhang", existingBanHang);
+        request.setAttribute("banHang", existingBanHang);
         dispatcher.forward(request, response);
     }
 

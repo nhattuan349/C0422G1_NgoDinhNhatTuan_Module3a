@@ -102,69 +102,78 @@
                     </c:if>
 
                     <tr>
-                        <th>maLoaiKhachHang:</th>
+                        <th>Mã Loại Khách Hàng:</th>
                         <td>
                             <input type="text" name="maLoaiKhachHang" size="45"
                                    value="<c:out value='${customer.maLoaiKhachHang}' />"
                             />
                         </td>
                     </tr>
+
                     <tr>
-                        <th>hoTen:</th>
+                        <th>Họ Tên:</th>
                         <td>
                             <input type="text" name="hoTen" size="45"
                                    value="<c:out value='${customer.hoTen}' />"
                             />
                         </td>
                     </tr>
+
                     <tr>
-                        <th>ngaySinh:</th>
+                        <th>Ngày Sinh:</th>
                         <td>
                             <input type="text" name="ngaySinh" size="45"
                                    value="<c:out value='${customer.ngaySinh}' />"
                             />
                         </td>
                     </tr>
+
                     <tr>
-                        <th>gioiTinh:</th>
+                        <th>Giới tính:</th>
                         <td>
                             <input type="text" name="gioiTinh" size="45"
                                    value="<c:out value='${customer.gioiTinh}' />"
                             />
                         </td>
                     </tr>
+
                     <tr>
-                        <th>soCMND:</th>
+                        <th>Số CMND:</th>
                         <td>
                             <input type="text" name="soCMND" size="45"
                                    value="<c:out value='${customer.soCMND}' />"
                             />
                         </td>
                     </tr>
+
                     <tr>
-                        <th>soDienThoai:</th>
+                        <th>Số điện thoại:</th>
                         <td>
                             <input type="text" name="soDienThoai" size="45"
                                    value="<c:out value='${customer.soDienThoai}' />"
                             />
                         </td>
                     </tr>
+
                     <tr>
-                        <th>email:</th>
+                        <th>Email:</th>
                         <td>
                             <input type="text" name="email" size="45"
                                    value="<c:out value='${customer.email}' />"
                             />
                         </td>
                     </tr>
+
                     <tr>
-                        <th>diaChi:</th>
+                        <th>Địa chỉ:</th>
                         <td>
                             <input type="text" name="diaChi" size="45"
                                    value="<c:out value='${customer.diaChi}' />"
                             />
                         </td>
                     </tr>
+
+
                     <tr>
                         <th>statusDelete:</th>
                         <td>
@@ -173,6 +182,7 @@
                             />
                         </td>
                     </tr>
+
                     <tr>
                         <td colspan="2" align="center">
                             <input type="submit" value="Save"/>

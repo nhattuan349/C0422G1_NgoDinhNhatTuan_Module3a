@@ -32,6 +32,7 @@ public class CustomerRepository implements ICustomerRepository {
             "status_delete = ? " +
             "where ma_khach_hang = ? ;" ;
     private static final String SEARCH_CUSTOMER_STATUS_DELETE = "SELECT * FROM khach_hang where status_delete = ?";
+    private static final String SELECT_ALL_CUSTOMEER_TYPE = " select * from loai_khach";
     public CustomerRepository() {
 
     }
@@ -83,7 +84,6 @@ public class CustomerRepository implements ICustomerRepository {
             System.out.println(preparedStatement);
             // Step 3: Execute the query or update query
             ResultSet rs = preparedStatement.executeQuery();
-
             // Step 4: Process the ResultSet object.
             while (rs.next()) {
                 int maKhachHang = rs.getInt("ma_khach_hang");
@@ -128,9 +128,9 @@ public class CustomerRepository implements ICustomerRepository {
                 int soDienThoai = rs.getInt("so_dien_thoai");
                 String email = rs.getString("email");
                 String diaChi = rs.getString("dia_chi");
-                int statusDelete = rs.getInt("status_delete");
 
-                customers.add(new Customer(maKhachHang,maLoaiKhachHang,hoTen,ngaySinh,gioiTinh,soCMND,soDienThoai,email,diaChi,statusDelete));
+
+                customers.add(new Customer(maKhachHang,maLoaiKhachHang,hoTen,ngaySinh,gioiTinh,soCMND,soDienThoai,email,diaChi));
             }
         } catch (SQLException e) {
             printSQLException(e);
@@ -152,16 +152,17 @@ public class CustomerRepository implements ICustomerRepository {
     public boolean updateCustomer(Customer customer) throws SQLException {
         boolean rowUpdated;
         try (Connection connection = getConnection(); PreparedStatement statement = connection.prepareStatement(UPDATE_CUSTOMER_SQL);) {
-            statement.setInt(1, customer.getMaKhachHang());
-            statement.setInt(2, customer.getMaLoaiKhachHang());
-            statement.setString(3, customer.getHoTen());
-            statement.setString(4, customer.getNgaySinh());
-            statement.setInt(5, customer.getGioiTinh());
-            statement.setString(6, customer.getSoCMND());
-            statement.setInt(7, customer.getSoDienThoai());
-            statement.setString(8, customer.getEmail());
-            statement.setString(9, customer.getDiaChi());
-            statement.setInt(10, customer.getStatusDelete());
+
+            statement.setInt(1, customer.getMaLoaiKhachHang());
+            statement.setString(2, customer.getHoTen());
+            statement.setString(3, customer.getNgaySinh());
+            statement.setInt(4, customer.getGioiTinh());
+            statement.setString(5, customer.getSoCMND());
+            statement.setInt(6, customer.getSoDienThoai());
+            statement.setString(7, customer.getEmail());
+            statement.setString(8, customer.getDiaChi());
+            statement.setInt(9, customer.getStatusDelete());
+            statement.setInt(10, customer.getMaKhachHang());
 
             rowUpdated = statement.executeUpdate() > 0;
         }
@@ -169,8 +170,28 @@ public class CustomerRepository implements ICustomerRepository {
     }
 
     @Override
-    public List<CustomerType> selectCustomer() {
-        return null;
+    public List<CustomerType> selectCustomerType() {
+        // using try-with-resources to avoid closing resources (boiler plate code)
+        List<CustomerType> customerTypes = new ArrayList<>();
+        // Step 1: Establishing a Connection
+        try (Connection connection = getConnection();
+
+             // Step 2:Create a statement using connection object
+             PreparedStatement preparedStatement = connection.prepareStatement(SELECT_ALL_CUSTOMEER_TYPE);) {
+            System.out.println(preparedStatement);
+            // Step 3: Execute the query or update query
+            ResultSet rs = preparedStatement.executeQuery();
+
+            // Step 4: Process the ResultSet object.
+            while (rs.next()) {
+                int maLoaiKhach = rs.getInt("ma_loai_khach");
+                String tenLoaiKhach = rs.getString("ten_loai_khach");
+                customerTypes.add(new CustomerType(maLoaiKhach,tenLoaiKhach));
+            }
+        } catch (SQLException e) {
+            printSQLException(e);
+        }
+        return customerTypes;
     }
 
     @Override

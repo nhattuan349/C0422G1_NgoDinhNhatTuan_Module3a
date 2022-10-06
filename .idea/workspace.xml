@@ -1,0 +1,461 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="96815e5c-fe60-4788-85d7-d223b918acb5" name="Changes" comment="">
+      <change afterPath="$PROJECT_DIR$/ban_hang/.idea/ban_hang.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ban_hang/.idea/modules.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ban_hang/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ban_hang_khong_status_delete/.idea/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ban_hang_khong_status_delete/.idea/compiler.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ban_hang_khong_status_delete/.idea/gradle.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ban_hang_khong_status_delete/.idea/jarRepositories.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ban_hang_khong_status_delete/.idea/misc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ban_hang_khong_status_delete/.idea/runConfigurations.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ban_hang_khong_status_delete/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ban_hang_khong_status_delete/src/main/java/config/ConfigFilter.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ban_hang_khong_status_delete/src/main/java/controller/BanHangServlet.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ban_hang_khong_status_delete/src/main/java/controller/HomeServlet.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ban_hang_khong_status_delete/src/main/java/model/BanHang.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ban_hang_khong_status_delete/src/main/java/model/KhuyenMai.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ban_hang_khong_status_delete/src/main/java/repository/IBanHangRepository.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ban_hang_khong_status_delete/src/main/java/repository/impl/BanHangRepository.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ban_hang_khong_status_delete/src/main/java/service/IBanHangService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ban_hang_khong_status_delete/src/main/java/service/impl/BanHangService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ban_hang_khong_status_delete/src/main/webapp/bootstrap-5.0.2-dist/css/bootstrap-grid.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ban_hang_khong_status_delete/src/main/webapp/bootstrap-5.0.2-dist/css/bootstrap-grid.css.map" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ban_hang_khong_status_delete/src/main/webapp/bootstrap-5.0.2-dist/css/bootstrap-grid.min.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ban_hang_khong_status_delete/src/main/webapp/bootstrap-5.0.2-dist/css/bootstrap-grid.min.css.map" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ban_hang_khong_status_delete/src/main/webapp/bootstrap-5.0.2-dist/css/bootstrap-grid.rtl.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ban_hang_khong_status_delete/src/main/webapp/bootstrap-5.0.2-dist/css/bootstrap-grid.rtl.css.map" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ban_hang_khong_status_delete/src/main/webapp/bootstrap-5.0.2-dist/css/bootstrap-grid.rtl.min.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ban_hang_khong_status_delete/src/main/webapp/bootstrap-5.0.2-dist/css/bootstrap-grid.rtl.min.css.map" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ban_hang_khong_status_delete/src/main/webapp/bootstrap-5.0.2-dist/css/bootstrap-reboot.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ban_hang_khong_status_delete/src/main/webapp/bootstrap-5.0.2-dist/css/bootstrap-reboot.css.map" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ban_hang_khong_status_delete/src/main/webapp/bootstrap-5.0.2-dist/css/bootstrap-reboot.min.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ban_hang_khong_status_delete/src/main/webapp/bootstrap-5.0.2-dist/css/bootstrap-reboot.min.css.map" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ban_hang_khong_status_delete/src/main/webapp/bootstrap-5.0.2-dist/css/bootstrap-reboot.rtl.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ban_hang_khong_status_delete/src/main/webapp/bootstrap-5.0.2-dist/css/bootstrap-reboot.rtl.css.map" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ban_hang_khong_status_delete/src/main/webapp/bootstrap-5.0.2-dist/css/bootstrap-reboot.rtl.min.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ban_hang_khong_status_delete/src/main/webapp/bootstrap-5.0.2-dist/css/bootstrap-reboot.rtl.min.css.map" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ban_hang_khong_status_delete/src/main/webapp/bootstrap-5.0.2-dist/css/bootstrap-utilities.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ban_hang_khong_status_delete/src/main/webapp/bootstrap-5.0.2-dist/css/bootstrap-utilities.css.map" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ban_hang_khong_status_delete/src/main/webapp/bootstrap-5.0.2-dist/css/bootstrap-utilities.min.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ban_hang_khong_status_delete/src/main/webapp/bootstrap-5.0.2-dist/css/bootstrap-utilities.min.css.map" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ban_hang_khong_status_delete/src/main/webapp/bootstrap-5.0.2-dist/css/bootstrap-utilities.rtl.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ban_hang_khong_status_delete/src/main/webapp/bootstrap-5.0.2-dist/css/bootstrap-utilities.rtl.css.map" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ban_hang_khong_status_delete/src/main/webapp/bootstrap-5.0.2-dist/css/bootstrap-utilities.rtl.min.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ban_hang_khong_status_delete/src/main/webapp/bootstrap-5.0.2-dist/css/bootstrap-utilities.rtl.min.css.map" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ban_hang_khong_status_delete/src/main/webapp/bootstrap-5.0.2-dist/css/bootstrap.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ban_hang_khong_status_delete/src/main/webapp/bootstrap-5.0.2-dist/css/bootstrap.css.map" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ban_hang_khong_status_delete/src/main/webapp/bootstrap-5.0.2-dist/css/bootstrap.min.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ban_hang_khong_status_delete/src/main/webapp/bootstrap-5.0.2-dist/css/bootstrap.min.css.map" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ban_hang_khong_status_delete/src/main/webapp/bootstrap-5.0.2-dist/css/bootstrap.rtl.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ban_hang_khong_status_delete/src/main/webapp/bootstrap-5.0.2-dist/css/bootstrap.rtl.css.map" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ban_hang_khong_status_delete/src/main/webapp/bootstrap-5.0.2-dist/css/bootstrap.rtl.min.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ban_hang_khong_status_delete/src/main/webapp/bootstrap-5.0.2-dist/css/bootstrap.rtl.min.css.map" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ban_hang_khong_status_delete/src/main/webapp/bootstrap-5.0.2-dist/js/bootstrap.bundle.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ban_hang_khong_status_delete/src/main/webapp/bootstrap-5.0.2-dist/js/bootstrap.bundle.js.map" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ban_hang_khong_status_delete/src/main/webapp/bootstrap-5.0.2-dist/js/bootstrap.bundle.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ban_hang_khong_status_delete/src/main/webapp/bootstrap-5.0.2-dist/js/bootstrap.bundle.min.js.map" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ban_hang_khong_status_delete/src/main/webapp/bootstrap-5.0.2-dist/js/bootstrap.esm.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ban_hang_khong_status_delete/src/main/webapp/bootstrap-5.0.2-dist/js/bootstrap.esm.js.map" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ban_hang_khong_status_delete/src/main/webapp/bootstrap-5.0.2-dist/js/bootstrap.esm.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ban_hang_khong_status_delete/src/main/webapp/bootstrap-5.0.2-dist/js/bootstrap.esm.min.js.map" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ban_hang_khong_status_delete/src/main/webapp/bootstrap-5.0.2-dist/js/bootstrap.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ban_hang_khong_status_delete/src/main/webapp/bootstrap-5.0.2-dist/js/bootstrap.js.map" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ban_hang_khong_status_delete/src/main/webapp/bootstrap-5.0.2-dist/js/bootstrap.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ban_hang_khong_status_delete/src/main/webapp/bootstrap-5.0.2-dist/js/bootstrap.min.js.map" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ban_hang_khong_status_delete/src/main/webapp/bootstrap520/css/bootstrap-grid.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ban_hang_khong_status_delete/src/main/webapp/bootstrap520/css/bootstrap-grid.css.map" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ban_hang_khong_status_delete/src/main/webapp/bootstrap520/css/bootstrap-grid.min.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ban_hang_khong_status_delete/src/main/webapp/bootstrap520/css/bootstrap-grid.min.css.map" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ban_hang_khong_status_delete/src/main/webapp/bootstrap520/css/bootstrap-grid.rtl.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ban_hang_khong_status_delete/src/main/webapp/bootstrap520/css/bootstrap-grid.rtl.css.map" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ban_hang_khong_status_delete/src/main/webapp/bootstrap520/css/bootstrap-grid.rtl.min.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ban_hang_khong_status_delete/src/main/webapp/bootstrap520/css/bootstrap-grid.rtl.min.css.map" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ban_hang_khong_status_delete/src/main/webapp/bootstrap520/css/bootstrap-reboot.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ban_hang_khong_status_delete/src/main/webapp/bootstrap520/css/bootstrap-reboot.css.map" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ban_hang_khong_status_delete/src/main/webapp/bootstrap520/css/bootstrap-reboot.min.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ban_hang_khong_status_delete/src/main/webapp/bootstrap520/css/bootstrap-reboot.min.css.map" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ban_hang_khong_status_delete/src/main/webapp/bootstrap520/css/bootstrap-reboot.rtl.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ban_hang_khong_status_delete/src/main/webapp/bootstrap520/css/bootstrap-reboot.rtl.css.map" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ban_hang_khong_status_delete/src/main/webapp/bootstrap520/css/bootstrap-reboot.rtl.min.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ban_hang_khong_status_delete/src/main/webapp/bootstrap520/css/bootstrap-reboot.rtl.min.css.map" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ban_hang_khong_status_delete/src/main/webapp/bootstrap520/css/bootstrap-utilities.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ban_hang_khong_status_delete/src/main/webapp/bootstrap520/css/bootstrap-utilities.css.map" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ban_hang_khong_status_delete/src/main/webapp/bootstrap520/css/bootstrap-utilities.min.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ban_hang_khong_status_delete/src/main/webapp/bootstrap520/css/bootstrap-utilities.min.css.map" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ban_hang_khong_status_delete/src/main/webapp/bootstrap520/css/bootstrap-utilities.rtl.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ban_hang_khong_status_delete/src/main/webapp/bootstrap520/css/bootstrap-utilities.rtl.css.map" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ban_hang_khong_status_delete/src/main/webapp/bootstrap520/css/bootstrap-utilities.rtl.min.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ban_hang_khong_status_delete/src/main/webapp/bootstrap520/css/bootstrap-utilities.rtl.min.css.map" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ban_hang_khong_status_delete/src/main/webapp/bootstrap520/css/bootstrap.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ban_hang_khong_status_delete/src/main/webapp/bootstrap520/css/bootstrap.css.map" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ban_hang_khong_status_delete/src/main/webapp/bootstrap520/css/bootstrap.min.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ban_hang_khong_status_delete/src/main/webapp/bootstrap520/css/bootstrap.min.css.map" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ban_hang_khong_status_delete/src/main/webapp/bootstrap520/css/bootstrap.rtl.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ban_hang_khong_status_delete/src/main/webapp/bootstrap520/css/bootstrap.rtl.css.map" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ban_hang_khong_status_delete/src/main/webapp/bootstrap520/css/bootstrap.rtl.min.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ban_hang_khong_status_delete/src/main/webapp/bootstrap520/css/bootstrap.rtl.min.css.map" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ban_hang_khong_status_delete/src/main/webapp/bootstrap520/js/bootstrap.bundle.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ban_hang_khong_status_delete/src/main/webapp/bootstrap520/js/bootstrap.bundle.js.map" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ban_hang_khong_status_delete/src/main/webapp/bootstrap520/js/bootstrap.bundle.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ban_hang_khong_status_delete/src/main/webapp/bootstrap520/js/bootstrap.bundle.min.js.map" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ban_hang_khong_status_delete/src/main/webapp/bootstrap520/js/bootstrap.esm.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ban_hang_khong_status_delete/src/main/webapp/bootstrap520/js/bootstrap.esm.js.map" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ban_hang_khong_status_delete/src/main/webapp/bootstrap520/js/bootstrap.esm.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ban_hang_khong_status_delete/src/main/webapp/bootstrap520/js/bootstrap.esm.min.js.map" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ban_hang_khong_status_delete/src/main/webapp/bootstrap520/js/bootstrap.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ban_hang_khong_status_delete/src/main/webapp/bootstrap520/js/bootstrap.js.map" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ban_hang_khong_status_delete/src/main/webapp/bootstrap520/js/bootstrap.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ban_hang_khong_status_delete/src/main/webapp/bootstrap520/js/bootstrap.min.js.map" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ban_hang_khong_status_delete/src/main/webapp/datatables/css/dataTables.bootstrap.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ban_hang_khong_status_delete/src/main/webapp/datatables/css/dataTables.bootstrap.min.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ban_hang_khong_status_delete/src/main/webapp/datatables/css/dataTables.bootstrap4.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ban_hang_khong_status_delete/src/main/webapp/datatables/css/dataTables.bootstrap4.min.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ban_hang_khong_status_delete/src/main/webapp/datatables/css/dataTables.bootstrap5.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ban_hang_khong_status_delete/src/main/webapp/datatables/css/dataTables.bootstrap5.min.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ban_hang_khong_status_delete/src/main/webapp/datatables/css/dataTables.bulma.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ban_hang_khong_status_delete/src/main/webapp/datatables/css/dataTables.bulma.min.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ban_hang_khong_status_delete/src/main/webapp/datatables/css/dataTables.dataTables.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ban_hang_khong_status_delete/src/main/webapp/datatables/css/dataTables.dataTables.min.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ban_hang_khong_status_delete/src/main/webapp/datatables/css/dataTables.foundation.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ban_hang_khong_status_delete/src/main/webapp/datatables/css/dataTables.foundation.min.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ban_hang_khong_status_delete/src/main/webapp/datatables/css/dataTables.jqueryui.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ban_hang_khong_status_delete/src/main/webapp/datatables/css/dataTables.jqueryui.min.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ban_hang_khong_status_delete/src/main/webapp/datatables/css/dataTables.semanticui.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ban_hang_khong_status_delete/src/main/webapp/datatables/css/dataTables.semanticui.min.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ban_hang_khong_status_delete/src/main/webapp/datatables/css/jquery.dataTables.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ban_hang_khong_status_delete/src/main/webapp/datatables/css/jquery.dataTables.min.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ban_hang_khong_status_delete/src/main/webapp/datatables/images/sort_asc.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ban_hang_khong_status_delete/src/main/webapp/datatables/images/sort_asc_disabled.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ban_hang_khong_status_delete/src/main/webapp/datatables/images/sort_both.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ban_hang_khong_status_delete/src/main/webapp/datatables/images/sort_desc.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ban_hang_khong_status_delete/src/main/webapp/datatables/images/sort_desc_disabled.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ban_hang_khong_status_delete/src/main/webapp/datatables/js/dataTables.bootstrap.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ban_hang_khong_status_delete/src/main/webapp/datatables/js/dataTables.bootstrap.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ban_hang_khong_status_delete/src/main/webapp/datatables/js/dataTables.bootstrap4.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ban_hang_khong_status_delete/src/main/webapp/datatables/js/dataTables.bootstrap4.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ban_hang_khong_status_delete/src/main/webapp/datatables/js/dataTables.bootstrap5.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ban_hang_khong_status_delete/src/main/webapp/datatables/js/dataTables.bootstrap5.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ban_hang_khong_status_delete/src/main/webapp/datatables/js/dataTables.bulma.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ban_hang_khong_status_delete/src/main/webapp/datatables/js/dataTables.bulma.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ban_hang_khong_status_delete/src/main/webapp/datatables/js/dataTables.dataTables.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ban_hang_khong_status_delete/src/main/webapp/datatables/js/dataTables.dataTables.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ban_hang_khong_status_delete/src/main/webapp/datatables/js/dataTables.foundation.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ban_hang_khong_status_delete/src/main/webapp/datatables/js/dataTables.foundation.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ban_hang_khong_status_delete/src/main/webapp/datatables/js/dataTables.jqueryui.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ban_hang_khong_status_delete/src/main/webapp/datatables/js/dataTables.jqueryui.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ban_hang_khong_status_delete/src/main/webapp/datatables/js/dataTables.semanticui.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ban_hang_khong_status_delete/src/main/webapp/datatables/js/dataTables.semanticui.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ban_hang_khong_status_delete/src/main/webapp/datatables/js/jquery.dataTables.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ban_hang_khong_status_delete/src/main/webapp/datatables/js/jquery.dataTables.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ban_hang_khong_status_delete/src/main/webapp/images/logo_furama.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ban_hang_khong_status_delete/src/main/webapp/images/slide_h10.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ban_hang_khong_status_delete/src/main/webapp/images/slide_h11.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ban_hang_khong_status_delete/src/main/webapp/images/slide_h12.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ban_hang_khong_status_delete/src/main/webapp/images/slide_h13.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ban_hang_khong_status_delete/src/main/webapp/images/slide_h14.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ban_hang_khong_status_delete/src/main/webapp/images/slide_h15.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ban_hang_khong_status_delete/src/main/webapp/images/slide_h16.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ban_hang_khong_status_delete/src/main/webapp/images/slide_h17.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ban_hang_khong_status_delete/src/main/webapp/images/slide_h18.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ban_hang_khong_status_delete/src/main/webapp/images/slide_h19.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ban_hang_khong_status_delete/src/main/webapp/images/slide_h2.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ban_hang_khong_status_delete/src/main/webapp/images/slide_h20.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ban_hang_khong_status_delete/src/main/webapp/images/slide_h21.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ban_hang_khong_status_delete/src/main/webapp/images/slide_h22.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ban_hang_khong_status_delete/src/main/webapp/images/slide_h23.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ban_hang_khong_status_delete/src/main/webapp/images/slide_h24.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ban_hang_khong_status_delete/src/main/webapp/images/slide_h25.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ban_hang_khong_status_delete/src/main/webapp/images/slide_h26.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ban_hang_khong_status_delete/src/main/webapp/images/slide_h28.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ban_hang_khong_status_delete/src/main/webapp/images/slide_h29.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ban_hang_khong_status_delete/src/main/webapp/images/slide_h3.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ban_hang_khong_status_delete/src/main/webapp/images/slide_h30.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ban_hang_khong_status_delete/src/main/webapp/images/slide_h4.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ban_hang_khong_status_delete/src/main/webapp/images/slide_h5.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ban_hang_khong_status_delete/src/main/webapp/images/slide_h6.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ban_hang_khong_status_delete/src/main/webapp/images/slide_h7.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ban_hang_khong_status_delete/src/main/webapp/images/slide_h8.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ban_hang_khong_status_delete/src/main/webapp/images/slide_h9.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ban_hang_khong_status_delete/src/main/webapp/jquery/jquery-3.5.1.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ban_hang_khong_status_delete/src/main/webapp/views/banhang/create.jsp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ban_hang_khong_status_delete/src/main/webapp/views/banhang/edit.jsp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ban_hang_khong_status_delete/src/main/webapp/views/banhang/information.jsp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ban_hang_khong_status_delete/src/main/webapp/views/banhang/list.jsp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ban_hang_khong_status_delete/src/main/webapp/views/banhang/modal.jsp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ban_hang_khong_status_delete/src/main/webapp/views/home.jsp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/casestudy_furama/.idea/webContexts.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/casestudy_furama/src/main/java/controller/EmployeeServlet.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/casestudy_furama/src/main/java/model/BoPhan.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/casestudy_furama/src/main/java/model/Employee.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/casestudy_furama/src/main/java/model/TrinhDo.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/casestudy_furama/src/main/java/model/ViTri.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/casestudy_furama/src/main/java/repository/IEmployeeRepository.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/casestudy_furama/src/main/java/repository/impl/EmployeeRepository.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/casestudy_furama/src/main/java/service/IEmployeeService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/casestudy_furama/src/main/java/service/impl/EmployeeService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/exam/.idea/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/exam/.idea/compiler.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/exam/.idea/gradle.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/exam/.idea/jarRepositories.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/exam/.idea/misc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/exam/.idea/runConfigurations.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/exam/.idea/uiDesigner.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/exam/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/exam/src/main/java/config/ConfigFilter.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/exam/src/main/java/controller/HoKhauServlet.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/exam/src/main/java/controller/HomeServlet.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/exam/src/main/java/model/HoKhau.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/exam/src/main/java/model/ThanhVien.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/exam/src/main/java/repository/IHoKhauRepository.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/exam/src/main/java/repository/impl/HoKhauRepository.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/exam/src/main/java/service/IHoKhauService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/exam/src/main/java/service/impl/HoKhauService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/exam/src/main/webapp/bootstrap-5.0.2-dist/css/bootstrap-grid.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/exam/src/main/webapp/bootstrap-5.0.2-dist/css/bootstrap-grid.css.map" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/exam/src/main/webapp/bootstrap-5.0.2-dist/css/bootstrap-grid.min.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/exam/src/main/webapp/bootstrap-5.0.2-dist/css/bootstrap-grid.min.css.map" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/exam/src/main/webapp/bootstrap-5.0.2-dist/css/bootstrap-grid.rtl.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/exam/src/main/webapp/bootstrap-5.0.2-dist/css/bootstrap-grid.rtl.css.map" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/exam/src/main/webapp/bootstrap-5.0.2-dist/css/bootstrap-grid.rtl.min.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/exam/src/main/webapp/bootstrap-5.0.2-dist/css/bootstrap-grid.rtl.min.css.map" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/exam/src/main/webapp/bootstrap-5.0.2-dist/css/bootstrap-reboot.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/exam/src/main/webapp/bootstrap-5.0.2-dist/css/bootstrap-reboot.css.map" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/exam/src/main/webapp/bootstrap-5.0.2-dist/css/bootstrap-reboot.min.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/exam/src/main/webapp/bootstrap-5.0.2-dist/css/bootstrap-reboot.min.css.map" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/exam/src/main/webapp/bootstrap-5.0.2-dist/css/bootstrap-reboot.rtl.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/exam/src/main/webapp/bootstrap-5.0.2-dist/css/bootstrap-reboot.rtl.css.map" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/exam/src/main/webapp/bootstrap-5.0.2-dist/css/bootstrap-reboot.rtl.min.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/exam/src/main/webapp/bootstrap-5.0.2-dist/css/bootstrap-reboot.rtl.min.css.map" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/exam/src/main/webapp/bootstrap-5.0.2-dist/css/bootstrap-utilities.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/exam/src/main/webapp/bootstrap-5.0.2-dist/css/bootstrap-utilities.css.map" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/exam/src/main/webapp/bootstrap-5.0.2-dist/css/bootstrap-utilities.min.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/exam/src/main/webapp/bootstrap-5.0.2-dist/css/bootstrap-utilities.min.css.map" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/exam/src/main/webapp/bootstrap-5.0.2-dist/css/bootstrap-utilities.rtl.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/exam/src/main/webapp/bootstrap-5.0.2-dist/css/bootstrap-utilities.rtl.css.map" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/exam/src/main/webapp/bootstrap-5.0.2-dist/css/bootstrap-utilities.rtl.min.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/exam/src/main/webapp/bootstrap-5.0.2-dist/css/bootstrap-utilities.rtl.min.css.map" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/exam/src/main/webapp/bootstrap-5.0.2-dist/css/bootstrap.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/exam/src/main/webapp/bootstrap-5.0.2-dist/css/bootstrap.css.map" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/exam/src/main/webapp/bootstrap-5.0.2-dist/css/bootstrap.min.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/exam/src/main/webapp/bootstrap-5.0.2-dist/css/bootstrap.min.css.map" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/exam/src/main/webapp/bootstrap-5.0.2-dist/css/bootstrap.rtl.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/exam/src/main/webapp/bootstrap-5.0.2-dist/css/bootstrap.rtl.css.map" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/exam/src/main/webapp/bootstrap-5.0.2-dist/css/bootstrap.rtl.min.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/exam/src/main/webapp/bootstrap-5.0.2-dist/css/bootstrap.rtl.min.css.map" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/exam/src/main/webapp/bootstrap-5.0.2-dist/js/bootstrap.bundle.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/exam/src/main/webapp/bootstrap-5.0.2-dist/js/bootstrap.bundle.js.map" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/exam/src/main/webapp/bootstrap-5.0.2-dist/js/bootstrap.bundle.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/exam/src/main/webapp/bootstrap-5.0.2-dist/js/bootstrap.bundle.min.js.map" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/exam/src/main/webapp/bootstrap-5.0.2-dist/js/bootstrap.esm.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/exam/src/main/webapp/bootstrap-5.0.2-dist/js/bootstrap.esm.js.map" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/exam/src/main/webapp/bootstrap-5.0.2-dist/js/bootstrap.esm.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/exam/src/main/webapp/bootstrap-5.0.2-dist/js/bootstrap.esm.min.js.map" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/exam/src/main/webapp/bootstrap-5.0.2-dist/js/bootstrap.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/exam/src/main/webapp/bootstrap-5.0.2-dist/js/bootstrap.js.map" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/exam/src/main/webapp/bootstrap-5.0.2-dist/js/bootstrap.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/exam/src/main/webapp/bootstrap-5.0.2-dist/js/bootstrap.min.js.map" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/exam/src/main/webapp/bootstrap520/css/bootstrap-grid.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/exam/src/main/webapp/bootstrap520/css/bootstrap-grid.css.map" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/exam/src/main/webapp/bootstrap520/css/bootstrap-grid.min.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/exam/src/main/webapp/bootstrap520/css/bootstrap-grid.min.css.map" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/exam/src/main/webapp/bootstrap520/css/bootstrap-grid.rtl.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/exam/src/main/webapp/bootstrap520/css/bootstrap-grid.rtl.css.map" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/exam/src/main/webapp/bootstrap520/css/bootstrap-grid.rtl.min.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/exam/src/main/webapp/bootstrap520/css/bootstrap-grid.rtl.min.css.map" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/exam/src/main/webapp/bootstrap520/css/bootstrap-reboot.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/exam/src/main/webapp/bootstrap520/css/bootstrap-reboot.css.map" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/exam/src/main/webapp/bootstrap520/css/bootstrap-reboot.min.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/exam/src/main/webapp/bootstrap520/css/bootstrap-reboot.min.css.map" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/exam/src/main/webapp/bootstrap520/css/bootstrap-reboot.rtl.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/exam/src/main/webapp/bootstrap520/css/bootstrap-reboot.rtl.css.map" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/exam/src/main/webapp/bootstrap520/css/bootstrap-reboot.rtl.min.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/exam/src/main/webapp/bootstrap520/css/bootstrap-reboot.rtl.min.css.map" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/exam/src/main/webapp/bootstrap520/css/bootstrap-utilities.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/exam/src/main/webapp/bootstrap520/css/bootstrap-utilities.css.map" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/exam/src/main/webapp/bootstrap520/css/bootstrap-utilities.min.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/exam/src/main/webapp/bootstrap520/css/bootstrap-utilities.min.css.map" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/exam/src/main/webapp/bootstrap520/css/bootstrap-utilities.rtl.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/exam/src/main/webapp/bootstrap520/css/bootstrap-utilities.rtl.css.map" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/exam/src/main/webapp/bootstrap520/css/bootstrap-utilities.rtl.min.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/exam/src/main/webapp/bootstrap520/css/bootstrap-utilities.rtl.min.css.map" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/exam/src/main/webapp/bootstrap520/css/bootstrap.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/exam/src/main/webapp/bootstrap520/css/bootstrap.css.map" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/exam/src/main/webapp/bootstrap520/css/bootstrap.min.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/exam/src/main/webapp/bootstrap520/css/bootstrap.min.css.map" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/exam/src/main/webapp/bootstrap520/css/bootstrap.rtl.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/exam/src/main/webapp/bootstrap520/css/bootstrap.rtl.css.map" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/exam/src/main/webapp/bootstrap520/css/bootstrap.rtl.min.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/exam/src/main/webapp/bootstrap520/css/bootstrap.rtl.min.css.map" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/exam/src/main/webapp/bootstrap520/js/bootstrap.bundle.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/exam/src/main/webapp/bootstrap520/js/bootstrap.bundle.js.map" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/exam/src/main/webapp/bootstrap520/js/bootstrap.bundle.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/exam/src/main/webapp/bootstrap520/js/bootstrap.bundle.min.js.map" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/exam/src/main/webapp/bootstrap520/js/bootstrap.esm.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/exam/src/main/webapp/bootstrap520/js/bootstrap.esm.js.map" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/exam/src/main/webapp/bootstrap520/js/bootstrap.esm.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/exam/src/main/webapp/bootstrap520/js/bootstrap.esm.min.js.map" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/exam/src/main/webapp/bootstrap520/js/bootstrap.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/exam/src/main/webapp/bootstrap520/js/bootstrap.js.map" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/exam/src/main/webapp/bootstrap520/js/bootstrap.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/exam/src/main/webapp/bootstrap520/js/bootstrap.min.js.map" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/exam/src/main/webapp/datatables/css/dataTables.bootstrap.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/exam/src/main/webapp/datatables/css/dataTables.bootstrap.min.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/exam/src/main/webapp/datatables/css/dataTables.bootstrap4.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/exam/src/main/webapp/datatables/css/dataTables.bootstrap4.min.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/exam/src/main/webapp/datatables/css/dataTables.bootstrap5.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/exam/src/main/webapp/datatables/css/dataTables.bootstrap5.min.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/exam/src/main/webapp/datatables/css/dataTables.bulma.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/exam/src/main/webapp/datatables/css/dataTables.bulma.min.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/exam/src/main/webapp/datatables/css/dataTables.dataTables.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/exam/src/main/webapp/datatables/css/dataTables.dataTables.min.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/exam/src/main/webapp/datatables/css/dataTables.foundation.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/exam/src/main/webapp/datatables/css/dataTables.foundation.min.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/exam/src/main/webapp/datatables/css/dataTables.jqueryui.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/exam/src/main/webapp/datatables/css/dataTables.jqueryui.min.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/exam/src/main/webapp/datatables/css/dataTables.semanticui.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/exam/src/main/webapp/datatables/css/dataTables.semanticui.min.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/exam/src/main/webapp/datatables/css/jquery.dataTables.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/exam/src/main/webapp/datatables/css/jquery.dataTables.min.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/exam/src/main/webapp/datatables/images/sort_asc.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/exam/src/main/webapp/datatables/images/sort_asc_disabled.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/exam/src/main/webapp/datatables/images/sort_both.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/exam/src/main/webapp/datatables/images/sort_desc.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/exam/src/main/webapp/datatables/images/sort_desc_disabled.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/exam/src/main/webapp/datatables/js/dataTables.bootstrap.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/exam/src/main/webapp/datatables/js/dataTables.bootstrap.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/exam/src/main/webapp/datatables/js/dataTables.bootstrap4.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/exam/src/main/webapp/datatables/js/dataTables.bootstrap4.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/exam/src/main/webapp/datatables/js/dataTables.bootstrap5.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/exam/src/main/webapp/datatables/js/dataTables.bootstrap5.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/exam/src/main/webapp/datatables/js/dataTables.bulma.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/exam/src/main/webapp/datatables/js/dataTables.bulma.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/exam/src/main/webapp/datatables/js/dataTables.dataTables.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/exam/src/main/webapp/datatables/js/dataTables.dataTables.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/exam/src/main/webapp/datatables/js/dataTables.foundation.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/exam/src/main/webapp/datatables/js/dataTables.foundation.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/exam/src/main/webapp/datatables/js/dataTables.jqueryui.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/exam/src/main/webapp/datatables/js/dataTables.jqueryui.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/exam/src/main/webapp/datatables/js/dataTables.semanticui.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/exam/src/main/webapp/datatables/js/dataTables.semanticui.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/exam/src/main/webapp/datatables/js/jquery.dataTables.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/exam/src/main/webapp/datatables/js/jquery.dataTables.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/exam/src/main/webapp/images/logo_furama.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/exam/src/main/webapp/images/slide_h10.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/exam/src/main/webapp/images/slide_h11.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/exam/src/main/webapp/images/slide_h12.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/exam/src/main/webapp/images/slide_h13.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/exam/src/main/webapp/images/slide_h14.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/exam/src/main/webapp/images/slide_h15.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/exam/src/main/webapp/images/slide_h16.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/exam/src/main/webapp/images/slide_h17.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/exam/src/main/webapp/images/slide_h18.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/exam/src/main/webapp/images/slide_h19.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/exam/src/main/webapp/images/slide_h2.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/exam/src/main/webapp/images/slide_h20.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/exam/src/main/webapp/images/slide_h21.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/exam/src/main/webapp/images/slide_h22.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/exam/src/main/webapp/images/slide_h23.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/exam/src/main/webapp/images/slide_h24.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/exam/src/main/webapp/images/slide_h25.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/exam/src/main/webapp/images/slide_h26.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/exam/src/main/webapp/images/slide_h28.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/exam/src/main/webapp/images/slide_h29.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/exam/src/main/webapp/images/slide_h3.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/exam/src/main/webapp/images/slide_h30.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/exam/src/main/webapp/images/slide_h4.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/exam/src/main/webapp/images/slide_h5.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/exam/src/main/webapp/images/slide_h6.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/exam/src/main/webapp/images/slide_h7.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/exam/src/main/webapp/images/slide_h8.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/exam/src/main/webapp/images/slide_h9.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/exam/src/main/webapp/jquery/jquery-3.5.1.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/exam/src/main/webapp/views/hokhau/edit.jsp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/exam/src/main/webapp/views/hokhau/list.jsp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/exam/src/main/webapp/views/home.jsp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/spring-gradle-java/src/main/java/com/example/AppConfiguration.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/spring-gradle-java/src/main/java/com/example/AppInitializer.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/spring-gradle-java/src/main/java/com/example/controller/GreetingController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/spring-gradle-java/src/main/webapp/WEB-INF/views/greeting.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/spring-gradle-xml/src/main/java/com/example/controller/GreetingController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/spring-gradle-xml/src/main/webapp/WEB-INF/applicationContext.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/spring-gradle-xml/src/main/webapp/WEB-INF/dispatcher-servlet.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/spring-gradle-xml/src/main/webapp/WEB-INF/views/greeting.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/spring-gradle-xml/src/main/webapp/WEB-INF/web.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ban_hang/.gradle/7.1/executionHistory/executionHistory.bin" beforeDir="false" afterPath="$PROJECT_DIR$/ban_hang/.gradle/7.1/executionHistory/executionHistory.bin" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ban_hang/.gradle/7.1/executionHistory/executionHistory.lock" beforeDir="false" afterPath="$PROJECT_DIR$/ban_hang/.gradle/7.1/executionHistory/executionHistory.lock" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ban_hang/.gradle/7.1/fileHashes/fileHashes.bin" beforeDir="false" afterPath="$PROJECT_DIR$/ban_hang/.gradle/7.1/fileHashes/fileHashes.bin" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ban_hang/.gradle/7.1/fileHashes/fileHashes.lock" beforeDir="false" afterPath="$PROJECT_DIR$/ban_hang/.gradle/7.1/fileHashes/fileHashes.lock" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ban_hang/.gradle/buildOutputCleanup/buildOutputCleanup.lock" beforeDir="false" afterPath="$PROJECT_DIR$/ban_hang/.gradle/buildOutputCleanup/buildOutputCleanup.lock" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ban_hang/.gradle/buildOutputCleanup/outputFiles.bin" beforeDir="false" afterPath="$PROJECT_DIR$/ban_hang/.gradle/buildOutputCleanup/outputFiles.bin" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ban_hang/.idea/gradle.xml" beforeDir="false" afterPath="$PROJECT_DIR$/ban_hang/.idea/gradle.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ban_hang/build/classes/java/main/controller/BanHangServlet.class" beforeDir="false" afterPath="$PROJECT_DIR$/ban_hang/build/classes/java/main/controller/BanHangServlet.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ban_hang/build/libs/ban_hang-1.0-SNAPSHOT.war" beforeDir="false" afterPath="$PROJECT_DIR$/ban_hang/build/libs/ban_hang-1.0-SNAPSHOT.war" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ban_hang/build/tmp/compileJava/previous-compilation-data.bin" beforeDir="false" afterPath="$PROJECT_DIR$/ban_hang/build/tmp/compileJava/previous-compilation-data.bin" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ban_hang/src/main/java/controller/BanHangServlet.java" beforeDir="false" afterPath="$PROJECT_DIR$/ban_hang/src/main/java/controller/BanHangServlet.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/casestudy_furama/.gradle/7.1/executionHistory/executionHistory.bin" beforeDir="false" afterPath="$PROJECT_DIR$/casestudy_furama/.gradle/7.1/executionHistory/executionHistory.bin" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/casestudy_furama/.gradle/7.1/executionHistory/executionHistory.lock" beforeDir="false" afterPath="$PROJECT_DIR$/casestudy_furama/.gradle/7.1/executionHistory/executionHistory.lock" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/casestudy_furama/.gradle/7.1/fileHashes/fileHashes.bin" beforeDir="false" afterPath="$PROJECT_DIR$/casestudy_furama/.gradle/7.1/fileHashes/fileHashes.bin" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/casestudy_furama/.gradle/7.1/fileHashes/fileHashes.lock" beforeDir="false" afterPath="$PROJECT_DIR$/casestudy_furama/.gradle/7.1/fileHashes/fileHashes.lock" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/casestudy_furama/.gradle/buildOutputCleanup/buildOutputCleanup.lock" beforeDir="false" afterPath="$PROJECT_DIR$/casestudy_furama/.gradle/buildOutputCleanup/buildOutputCleanup.lock" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/casestudy_furama/build/classes/java/main/controller/CustomerServlet.class" beforeDir="false" afterPath="$PROJECT_DIR$/casestudy_furama/build/classes/java/main/controller/CustomerServlet.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/casestudy_furama/build/classes/java/main/repository/ICustomerRepository.class" beforeDir="false" afterPath="$PROJECT_DIR$/casestudy_furama/build/classes/java/main/repository/ICustomerRepository.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/casestudy_furama/build/classes/java/main/repository/impl/CustomerRepository.class" beforeDir="false" afterPath="$PROJECT_DIR$/casestudy_furama/build/classes/java/main/repository/impl/CustomerRepository.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/casestudy_furama/build/classes/java/main/service/ICustomerService.class" beforeDir="false" afterPath="$PROJECT_DIR$/casestudy_furama/build/classes/java/main/service/ICustomerService.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/casestudy_furama/build/classes/java/main/service/impl/CustomerService.class" beforeDir="false" afterPath="$PROJECT_DIR$/casestudy_furama/build/classes/java/main/service/impl/CustomerService.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/casestudy_furama/build/libs/casestudy_furama-1.0-SNAPSHOT.war" beforeDir="false" afterPath="$PROJECT_DIR$/casestudy_furama/build/libs/casestudy_furama-1.0-SNAPSHOT.war" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/casestudy_furama/build/tmp/compileJava/previous-compilation-data.bin" beforeDir="false" afterPath="$PROJECT_DIR$/casestudy_furama/build/tmp/compileJava/previous-compilation-data.bin" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/casestudy_furama/src/main/java/controller/CustomerServlet.java" beforeDir="false" afterPath="$PROJECT_DIR$/casestudy_furama/src/main/java/controller/CustomerServlet.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/casestudy_furama/src/main/java/repository/ICustomerRepository.java" beforeDir="false" afterPath="$PROJECT_DIR$/casestudy_furama/src/main/java/repository/ICustomerRepository.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/casestudy_furama/src/main/java/repository/impl/CustomerRepository.java" beforeDir="false" afterPath="$PROJECT_DIR$/casestudy_furama/src/main/java/repository/impl/CustomerRepository.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/casestudy_furama/src/main/java/service/ICustomerService.java" beforeDir="false" afterPath="$PROJECT_DIR$/casestudy_furama/src/main/java/service/ICustomerService.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/casestudy_furama/src/main/java/service/impl/CustomerService.java" beforeDir="false" afterPath="$PROJECT_DIR$/casestudy_furama/src/main/java/service/impl/CustomerService.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/casestudy_furama/src/main/webapp/views/customer/create.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/casestudy_furama/src/main/webapp/views/customer/create.jsp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/casestudy_furama/src/main/webapp/views/customer/edit.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/casestudy_furama/src/main/webapp/views/customer/edit.jsp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/casestudy_furama/src/main/webapp/views/customer/list.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/casestudy_furama/src/main/webapp/views/customer/list.jsp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/quan_li_hoc_sinh/.gradle/7.1/executionHistory/executionHistory.bin" beforeDir="false" afterPath="$PROJECT_DIR$/quan_li_hoc_sinh/.gradle/7.1/executionHistory/executionHistory.bin" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/quan_li_hoc_sinh/.gradle/7.1/executionHistory/executionHistory.lock" beforeDir="false" afterPath="$PROJECT_DIR$/quan_li_hoc_sinh/.gradle/7.1/executionHistory/executionHistory.lock" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/quan_li_hoc_sinh/.gradle/7.1/fileHashes/fileHashes.bin" beforeDir="false" afterPath="$PROJECT_DIR$/quan_li_hoc_sinh/.gradle/7.1/fileHashes/fileHashes.bin" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/quan_li_hoc_sinh/.gradle/7.1/fileHashes/fileHashes.lock" beforeDir="false" afterPath="$PROJECT_DIR$/quan_li_hoc_sinh/.gradle/7.1/fileHashes/fileHashes.lock" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/quan_li_hoc_sinh/.gradle/buildOutputCleanup/buildOutputCleanup.lock" beforeDir="false" afterPath="$PROJECT_DIR$/quan_li_hoc_sinh/.gradle/buildOutputCleanup/buildOutputCleanup.lock" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/quan_li_hoc_sinh/build/classes/java/main/controller/HocSinhServlet.class" beforeDir="false" afterPath="$PROJECT_DIR$/quan_li_hoc_sinh/build/classes/java/main/controller/HocSinhServlet.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/quan_li_hoc_sinh/build/libs/quan_li_hoc_sinh-1.0-SNAPSHOT.war" beforeDir="false" afterPath="$PROJECT_DIR$/quan_li_hoc_sinh/build/libs/quan_li_hoc_sinh-1.0-SNAPSHOT.war" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/quan_li_hoc_sinh/build/tmp/compileJava/previous-compilation-data.bin" beforeDir="false" afterPath="$PROJECT_DIR$/quan_li_hoc_sinh/build/tmp/compileJava/previous-compilation-data.bin" afterDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="ProjectId" id="2FOFLgOaBDFJIf8XhkBJyawbFgw" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">
+    <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
+    <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+  </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="96815e5c-fe60-4788-85d7-d223b918acb5" name="Changes" comment="" />
+      <created>1664355169640</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1664355169640</updated>
+      <workItem from="1664355171573" duration="794000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="3" />
+  </component>
+</project>

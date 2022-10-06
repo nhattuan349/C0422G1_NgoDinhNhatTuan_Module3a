@@ -1,6 +1,7 @@
 package controller;
 
 import model.Customer;
+import model.CustomerType;
 import service.ICustomerService;
 import service.impl.CustomerService;
 
@@ -61,6 +62,7 @@ public class CustomerServlet extends HttpServlet {
 
     private void updateCustomer(HttpServletRequest request, HttpServletResponse response)
             throws SQLException, IOException, ServletException {
+
         int maKhachHang = Integer.parseInt(request.getParameter("maKhachHang"));
         int maLoaiKhachHang = Integer.parseInt(request.getParameter("maLoaiKhachHang"));
         String hoTen = request.getParameter("hoTen");
@@ -74,6 +76,7 @@ public class CustomerServlet extends HttpServlet {
 
         Customer book = new Customer(maKhachHang,maLoaiKhachHang,hoTen,ngaySinh,gioiTinh,soCMND,soDienThoai,email,diaChi,statusDelete);
         customerService.updateCustomer(book);
+
         RequestDispatcher dispatcher = request.getRequestDispatcher("views/customer/edit.jsp");
         dispatcher.forward(request, response);
 
@@ -112,6 +115,9 @@ public class CustomerServlet extends HttpServlet {
     private void showNewFormCustomer(HttpServletRequest request, HttpServletResponse response)
             throws SQLException, IOException, ServletException {
 
+        List<CustomerType> listCustomerType = customerService.selectCustomerType();
+        request.setAttribute("listCustomerType", listCustomerType);
+
         RequestDispatcher dispatcher = request.getRequestDispatcher("views/customer/create.jsp");
         dispatcher.forward(request, response);
     }
@@ -120,6 +126,10 @@ public class CustomerServlet extends HttpServlet {
             throws SQLException, IOException, ServletException {
         int maKhachHang = Integer.parseInt(request.getParameter("maKhachHang"));
         Customer existingCustomer = customerService.selectCustomer(maKhachHang);
+
+        List<CustomerType> listCustomerType = customerService.selectCustomerType();
+        request.setAttribute("listCustomerType", listCustomerType);
+
         RequestDispatcher dispatcher = request.getRequestDispatcher("views/customer/edit.jsp");
         request.setAttribute("customer", existingCustomer);
         dispatcher.forward(request, response);
@@ -142,6 +152,8 @@ public class CustomerServlet extends HttpServlet {
         List<Customer> customers = customerService.findByStatusDelete(statusDelete);
         request.setAttribute("listCustomer", customers);
 
+        List<CustomerType> listCustomerType = customerService.selectCustomerType();
+        request.setAttribute("listCustomerType", listCustomerType);
         RequestDispatcher dispatcher = request.getRequestDispatcher("views/customer/list.jsp");
         try {
             dispatcher.forward(request, response);
@@ -157,6 +169,9 @@ public class CustomerServlet extends HttpServlet {
            throws SQLException, IOException, ServletException {
             List<Customer> listCustomer = customerService.selectAllCustomer();
             request.setAttribute("listCustomer", listCustomer);
+
+        List<CustomerType> listCustomerType = customerService.selectCustomerType();
+        request.setAttribute("listCustomerType", listCustomerType);
 
             RequestDispatcher dispatcher = request.getRequestDispatcher("views/customer/list.jsp");
             dispatcher.forward(request, response);

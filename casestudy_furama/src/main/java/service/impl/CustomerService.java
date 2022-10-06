@@ -39,8 +39,8 @@ public class CustomerService implements ICustomerService {
     }
 
     @Override
-    public List<CustomerType> selectCustomer() {
-        return customerRepository.selectCustomer();
+    public List<CustomerType> selectCustomerType() {
+        return customerRepository.selectCustomerType();
     }
 
     @Override
